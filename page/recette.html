@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+
+<head> 
+<title> Fast recette </title> 
+<meta charset="UTF-8"> 
+<link rel= "stylesheet" href="../css/recette.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">accueil</a>
+            <a href="./A_propos.html">A propos</a>
+        </nav>
+    </header>
+    <main>        
+        <section>
+            <h1>COOk’EASY</h1>
+            <h2>Formulaire de recherche de recette</h2>
+
+
+              <form action="/ma-page-de-traitement" method="post">
+
+
+
+        <fieldset>
+            <legend>Choisissez vos ingrédients </legend>
+
+            <p>Vos sauces</p>
+
+            <input type="checkbox" id="sauceT" name="sauce" value="sauce tomate">
+            <label for="sauceT">1) Sauce tomate</label><br>
+
+            <input type="checkbox" id="sauceP" name="sauce" value="sauce Pesto">
+            <label for="sauceP">2) Sauce Pesto</label><br>
+
+          <input type="checkbox" id="sauceC" name="sauce" value="Crème fraîche">
+            <label for="sauceC">3) Crème fraîche</label><br>
+
+            <p>Votre base</p>
+
+           <input type="radio" id="baseP" name="base" value="Pâtes">
+            <label for="baseP">1) Pâtes</label><br>
+
+            <input type="radio" id="baseR" name="base" value="Riz">
+            <label for="baseR">2) Riz</label><br>
+
+          <input type="radio" id="basePain" name="base" value="Pain">
+            <label for="basePain">3) Pain</label><br>
+
+           <input type="radio" id="basePommeT" name="base" value="Pomme de terre">
+            <label for="basePommeT">4) Pomme de terre</label><br>  
+
+
+            <p> Protéines</p>
+           <input type="radio" id="ViandeP" name="proteines" value="Poulet">
+            <label for="ViandeP">1) Poulet</label><br>
+
+            <input type="radio" id="ViandeS" name="proteines" value="Steak">
+            <label for="ViandeS">2) Steak</label><br>
+
+          <input type="radio" id="PoissonId" name="proteines" value="Poisson">
+            <label for="PoissonId">3) Poisson</label><br>
+
+            <input type="radio" id="OeufId" name="proteines" value="Oeuf">
+            <label for="OeufId">4) Oeuf</label><br>
+
+         
+    <p>Ingrédients supplémentaires</p>
+
+    <input type="checkbox" id="ingredientOignon" name="ingredients" value="Oignon">
+    <label for="ingredientOignon">Oignons</label><br>
+
+    <input type="checkbox" id="ingredientAil" name="ingredients" value="Ail">
+    <label for="ingredientAil">Ail</label><br>
+
+    <input type="checkbox" id="ingredientFromage" name="ingredients" value="Fromage râpé">
+    <label for="ingredientFromage">Fromage râpé</label><br>
+
+    <input type="checkbox" id="ingredientChampignon" name="ingredients" value="Champignons">
+    <label for="ingredientChampignon">Champignons</label><br>
+
+    <input type="checkbox" id="ingredientTomate" name="ingredients" value="Tomate">
+    <label for="ingredientTomate">Tomates</label><br>
+
+    <input type="checkbox" id="ingredientPoivron" name="ingredients" value="Poivron">
+    <label for="ingredientPoivron">Poivrons</label><br>
+
+
+
+            <button type="submit">Envoyer</button>
+        </fieldset>
+
+    </form>
+
+  <section id="resultats">
+        <h2>Les recettes</h2>
+        <div id="liste-recettes">
+            <!-- Les recettes apparaîtront ici -->
+        </div>
+    </section>
+
+            
+
+        </section>
+    </main>
+
+
+</body>
+</html>
