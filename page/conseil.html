@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <title>COOK'EASY Conseils</title>
+        <meta charset="UTF-8">
+
+    </head>
+
+        <header>
+        <a href="#">
+            <img src="../img/imageheader.png" alt="cookeasy" height="300" width="300">
+        </a>
+
+        <nav>
+            <a href="A_propos.html">A propos</a>
+            <a href="autres_solutions.html">Solutions</a>
+            <a href="conseil.html">Conseil</a>
+        </nav>
+    </header>
+    
+    <body>
+        <section>
+            <h1>Nos Conseils</h1>
+            <div>
+                <p>L'alimentation est primordiale pour le corps et l'esprit. Pourtant des études montrent que beaucoup d'étudiants ont déjà manqué un repas ou plus par faute de moyen financier.</p>
+
+            </div>
+            <div>
+                <h2>Comment manger sainement pour moins cher ?</h2>
+
+            </div>
+
+        </section>
+        
+        <section>
+        <form>
+            <h2>Formulaire</h2>
+            <div>
+                <h3>Votre situation</h3>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom_utilisateur">
+                <br>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prénom" name="prenom_utllisateur">
+                <br>
+                <label for="email">Adresse email</label>
+                <input type="email" id="email" name="email_utilisateur">
+                <br>
+                <select id="statut" name="statut_utilisateur">
+                    <option value>Choississez votre statut</option>
+                    <option value="étudiant">Etudiant</option>
+                    <option value="situation">Précarité alimentaire</option>
+                    <option value="autres">Autres</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <h3>Votre régime alimentaire</h3>
+                <select id="regime" name="regime_utilisateur">
+                    <option value>Choississez votre régime</option>
+                    <option value="tous">Je mange de tous</option>
+                    <option value="halal">Je mange Halal</option>
+                    <option value="kasher">Je mange Kasher</option>
+                    <option value="végétarien">Je mange végétarien</option>
+                    <option value="vegan">Je mange vegan</option>
+
+                </select>
+            </div>
+            <div>
+                <h3>Votre budget</h3>
+                <fieldset>
+                    <legend>Quel est votre budget par mois</legend>
+                    <input type="radio" id="a" name="budget" value="a">
+                    <label for="a">
+                        "Moins de 50 euros par mois"
+                    </label>
+                    <br>
+                    <input type="radio" id="b" name="budget" value="b">
+                    <label for="b">
+                        "entre 50 et 100 euros par mois"
+                    </label>
+                    <br>
+                    <input type="radio" id="c" name="budget" value="c">
+                    <label for="c">
+                        "Plus de 100 euros par mois"
+                    </label>
+                </fieldset>
+            </div>
+            <div>
+                <h3>Votre recherche</h3>
+                <fieldset>
+                    <legend>Que recherchez vous en visitant notre site ?</legend>
+                    <input type="checkbox" id="d" name="recherche" value="d">
+                    <label for="d">Des recettes salées</label>
+                    <br>
+                    <input type="checkbox" id="e" name="recherche" value="e">
+                    <label for="e">Des recettes sucrées</label>
+                    <br>
+                    <input type="checkbox" id="f" name="recherche" value="f">
+                    <label for="f">Des recettes faciles</label>
+                    <br>
+                    <input type="checkbox" id="g" name="recherche" value="g">
+                    <label for="g">Des recettes rapides à préparer</label>
+                    <br>
+                </fieldset>
+            </div>
+            <div>
+                <input type="button" value="Envoyer">
+            </div>
+        </form>
+        </section>
+
+        <section id="recettes">
+            <h2>Les recettes proposées</h2>
+            <p>Nous vous prosons plusieurs recettes qui conviennent à tous.</p>
+
+            <div>
+                <article
+                class="recette"
+                regime="vegan"
+                type="sucre"
+                situation="facile_rapide">
+                
+                <img src="../img/image.png" weight=50px height=50px>
+            <h4>Pancake à la banane</h4>
+            <p>Temps de préparation : 15 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="halal"
+            type="sale"
+            situation="facile">
+
+            <img src="../img/image1.png" weight=50px height=50px>
+            <h4>Poulet au curry</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+            
+            <article
+            class="recette"
+            regime="vegetarien"
+            type="sale"
+            situation="facile_rapide">
+            <img src="../img/image2.png" weight=50px height=50px>
+            <h4>Chakchouka aux oeufs</h4>
+            <p>Temps de préparation : 20 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="kasher"
+            type="sale"
+            situation="facile">
+            <img src="../img/image3.png" weight="50px" height="50px">
+            <h4>Saumon au citron et pommes de terre</h4>
+            <p>Temps de préparation : 35 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sale"
+            situation="facile">
+            <img src="../img/image4.png" weight="50px" height="50px">
+
+            <h4>Curry de pois chiches au lait de coco</h4>
+            <p>Temps de préparation : 25 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="tous"
+            type="sale"
+            situation="facile">
+            <img src="../img/image5.png" weight="50px" height="50px">
+            <h4>Pates Bolognaise</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="tous"
+            type="sucre"
+            situation="facile">
+            <img src="../img/image6.png" weight="50px" height="50px">
+            <h4>Fondant au chocolat</h4>
+            <p>Temps de préparation : 25 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegetarien"
+            type="sale"
+            situation="facile_rapide">
+
+            <img src="../img/image7.png" weight="50px" height="50px">
+            <h4>Salade tomate mozzarella</h4>
+            <p>Temps de préparation : 10 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sale"
+            situation="facile_rapide">
+            <img src="../img/image8.png" weight="50px" height="50px">
+            <h4>Riz sauté aux légumes</h4>
+            <p>Temps de préparation : 15 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="halal"
+            type="sale"
+            situation="facile">
+            <img src="../img/image9.png" weight="50px" height="50px">
+            <h4>Tacos au poulet</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="kasher"
+            type="sale"
+            situation="facile">
+            <img src="../img/image10.png" weight="50px" height="50px">
+            <h4>Boulettes de boeuf sauce tomate</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegetarien"
+            type="sale"
+            situation="facile">
+            <img src="../img/image11.png" weight="50px" height="50px">
+            <h4>Quiche aux légumes</h4>
+            <p>Temps de préparation : 40 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sale"
+            situation="facile_rapide">
+            <img src="../img/image12.png" weight="50px" height="50px">
+            <h4>Pates au pesto</h4>
+            <p>Temps de préparation : 10 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sale"
+            situation="facile_rapide">
+            <img src="../img/image13.png" weight="50px" height="50px">
+            <h4>Soupe de lentilles</h4>
+            <p>Temps de préparation : 15 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="tous"
+            type="sucre"
+            situation="facile">
+            <img src="../img/image14.png" weight="50px" height="50px">
+            <h4>Cookies aux pépites de chocolat</h4>
+            <p>Temps de préparation : 40 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sucre"
+            situation="facile_rapide">
+            <img src="../img/image15.png" weight="50px" height="50px">
+            <h4>Salade de fruits frais</h4>
+            <p>Temps de préparation : 10 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegetarien"
+            type="sucre"
+            situation="facile_rapide">
+            <img src="../img/image16.png" weight="50px" height="50px">
+            <h4>Crêpes</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="vegan"
+            type="sucre"
+            situation="facile">
+            <img src="../img/image17.png" weight="50px" height="50px">
+            <h4>Pommes au four à la cannelle</h4>
+            <p>Temps de préparation : 30 minutes</p>
+            </article>
+
+            <article
+            class="recette"
+            regime="tous"
+            type="sale"
+            situation="facile_rapide">
+            <img src="../img/image18.png" weight="50px" height="50px">
+            <h4>Wrap aux thons et crudités</h4>
+            <p>Temps de préparation : 20 minutes</p>
+            </article>
+
+    </div>
+
+        </section>
+
+
+    </body>
+
+    <footer>
+        <p>©️ 2026 Antoine Perard, Samba Fall, Lucie Foloppe</p>
+        <p>Tous droits résérvées.</p>
+        <a href="https://www.lescrous.fr/2023/06/reseau-des-crous-ambassadeur-mon-restau-responsable/?export_format=pdf">En savoir plus ?</a>
+
+    </footer>
+
+
+</html>
