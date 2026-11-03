@@ -1,0 +1,163 @@
+
+[
+    {
+        "id_recette": 1,
+        "nom_recette": "Pâtes au poulet et pesto",
+        "base": "Pâtes",
+        "sauce": "Sauce Pesto",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Fromage râpé"]
+    },
+    {
+        "id_recette": 2,
+        "nom_recette": "Pâtes à la sauce tomate et au steak",
+        "base": "Pâtes",
+        "sauce": "Sauce tomate",
+        "proteine": "Steak",
+        "ingredients_supplementaires": ["Oignons", "Ail"]
+    },
+    {
+        "id_recette": 3,
+        "nom_recette": "Pâtes à la crème et aux champignons",
+        "base": "Pâtes",
+        "sauce": "Crème fraîche",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Champignons", "Fromage râpé"]
+    },
+    {
+        "id_recette": 4,
+        "nom_recette": "Pâtes au pesto et au poisson",
+        "base": "Pâtes",
+        "sauce": "Sauce Pesto",
+        "proteine": "Poisson",
+        "ingredients_supplementaires": ["Tomates"]
+    },
+    {
+        "id_recette": 5,
+        "nom_recette": "Pâtes à la crème et aux oeufs",
+        "base": "Pâtes",
+        "sauce": "Crème fraîche",
+        "proteine": "Oeuf",
+        "ingredients_supplementaires": ["Fromage râpé"]
+    },
+    {
+        "id_recette": 6,
+        "nom_recette": "Riz au poulet et sauce tomate",
+        "base": "Riz",
+        "sauce": "Sauce tomate",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Poivrons", "Oignons"]
+    },
+    {
+        "id_recette": 7,
+        "nom_recette": "Riz au poisson et à la crème",
+        "base": "Riz",
+        "sauce": "Crème fraîche",
+        "proteine": "Poisson",
+        "ingredients_supplementaires": ["Champignons", "Ail"]
+    },
+    {
+        "id_recette": 8,
+        "nom_recette": "Riz au steak et aux oignons",
+        "base": "Riz",
+        "sauce": "Sauce tomate",
+        "proteine": "Steak",
+        "ingredients_supplementaires": ["Oignons", "Tomates"]
+    },
+    {
+        "id_recette": 9,
+        "nom_recette": "Riz au poulet et pesto",
+        "base": "Riz",
+        "sauce": "Sauce Pesto",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Ail", "Fromage râpé"]
+    },
+    {
+        "id_recette": 10,
+        "nom_recette": "Riz aux oeufs et aux tomates",
+        "base": "Riz",
+        "sauce": "Sauce tomate",
+        "proteine": "Oeuf",
+        "ingredients_supplementaires": ["Tomates", "Oignons"]
+    },
+    {
+        "id_recette": 11,
+        "nom_recette": "Sandwich au poulet et aux poivrons",
+        "base": "Pain",
+        "sauce": "Sauce tomate",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Poivrons", "Tomates"]
+    },
+    {
+        "id_recette": 12,
+        "nom_recette": "Sandwich au steak et au fromage",
+        "base": "Pain",
+        "sauce": "Crème fraîche",
+        "proteine": "Steak",
+        "ingredients_supplementaires": ["Fromage râpé", "Oignons"]
+    },
+    {
+        "id_recette": 13,
+        "nom_recette": "Sandwich au poisson et au pesto",
+        "base": "Pain",
+        "sauce": "Sauce Pesto",
+        "proteine": "Poisson",
+        "ingredients_supplementaires": ["Tomates"]
+    },
+    {
+        "id_recette": 14,
+        "nom_recette": "Tartines aux oeufs et au fromage",
+        "base": "Pain",
+        "sauce": "Crème fraîche",
+        "proteine": "Oeuf",
+        "ingredients_supplementaires": ["Fromage râpé", "Ail"]
+    },
+    {
+        "id_recette": 15,
+        "nom_recette": "Pommes de terre au poulet",
+        "base": "Pomme de terre",
+        "sauce": "Crème fraîche",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Ail", "Oignons"]
+    },
+    {
+        "id_recette": 16,
+        "nom_recette": "Pommes de terre au steak",
+        "base": "Pomme de terre",
+        "sauce": "Sauce tomate",
+        "proteine": "Steak",
+        "ingredients_supplementaires": ["Champignons", "Ail"]
+    },
+    {
+        "id_recette": 17,
+        "nom_recette": "Gratin de pommes de terre",
+        "base": "Pomme de terre",
+        "sauce": "Crème fraîche",
+        "proteine": "Oeuf",
+        "ingredients_supplementaires": ["Fromage râpé", "Ail"]
+    },
+    {
+        "id_recette": 18,
+        "nom_recette": "Pommes de terre au poisson",
+        "base": "Pomme de terre",
+        "sauce": "Sauce tomate",
+        "proteine": "Poisson",
+        "ingredients_supplementaires": ["Tomates", "Oignons"]
+    },
+    {
+        "id_recette": 19,
+        "nom_recette": "Poulet crémeux aux champignons",
+        "base": "Pâtes",
+        "sauce": "Crème fraîche",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Champignons", "Ail"]
+    },
+    {
+        "id_recette": 20,
+        "nom_recette": "Steak aux poivrons",
+        "base": "Riz",
+        "sauce": "Sauce Pesto",
+        "proteine": "Steak",
+        "ingredients_supplementaires": ["Poivrons", "Oignons"]
+    }
+]

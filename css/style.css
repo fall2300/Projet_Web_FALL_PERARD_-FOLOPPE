@@ -103,3 +103,67 @@ footer a {
     color: black;
     text-decoration: underline;
 }
+
+.form_title{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* Formulaire */
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    background-color: #f5f3eb;
+    border-radius: 12px;
+}
+
+/* Encadré des ingrédients */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F27438;
+    margin-bottom: 20px;
+}
+
+/* Catégories */
+form p {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F27438;
+}
+
+/* Espacement des choix */
+form label {
+    margin-left: 5px;
+    line-height: 2;
+}
+
+input {
+    accent-color: #F27438;
+}
+
+/* Bouton d'envoi */
+button {
+    display: block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #F27438;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F27438;
+}
