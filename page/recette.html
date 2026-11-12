@@ -6,6 +6,7 @@
 <meta charset="UTF-8"> 
 <link rel= "stylesheet"  href="../css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../js/recette.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
             </div>
 
 
-              <form action="/ma-page-de-traitement" method="post">
+              <form onsubmit="fetchJSON(event, '../recette.json')">
 
 
 
@@ -100,7 +101,7 @@
 
 
 
-            <button type="submit">Envoyer</button>
+            <button type="submit" class="form">Envoyer</button>
         </fieldset>
 
     </form>
@@ -116,6 +117,13 @@
 
         </section>
     </main>
+    
+  <footer>
+        <p>En savoir plus ?</p>
+        <p><a href="apropos.html">À propos de nous</a></p>
+        <p>&copy; Fall Samba, Perard Antoine, Foloppe Lucie</p>
+        <p>Tous droits réservés</p>
+    </footer>
 
 
 </body>
