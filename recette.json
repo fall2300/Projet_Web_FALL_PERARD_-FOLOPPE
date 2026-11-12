@@ -6,7 +6,8 @@
         "base": "Pâtes",
         "sauce": "Sauce Pesto",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Fromage râpé"]
+        "ingredients_supplementaires": ["Fromage râpé"],
+        "preparation": "Faire cuire les pâtes. Faire revenir le poulet à la poêle, ajouter le pesto puis mélanger avec les pâtes. Parsemer de fromage râpé avant de servir."
     },
     {
         "id_recette": 2,
@@ -14,7 +15,8 @@
         "base": "Pâtes",
         "sauce": "Sauce tomate",
         "proteine": "Steak",
-        "ingredients_supplementaires": ["Oignons", "Ail"]
+        "ingredients_supplementaires": ["Oignons", "Ail"],
+        "preparation": "Faire cuire les pâtes. Faire revenir les oignons et l'ail avec le steak coupé en morceaux. Ajouter la sauce tomate et laisser mijoter quelques minutes avant de servir avec les pâtes."
     },
     {
         "id_recette": 3,
@@ -22,7 +24,8 @@
         "base": "Pâtes",
         "sauce": "Crème fraîche",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Champignons", "Fromage râpé"]
+        "ingredients_supplementaires": ["Champignons", "Fromage râpé"],
+        "preparation": "Faire cuire les pâtes. Faire revenir le poulet et les champignons dans une poêle. Ajouter la crème fraîche et mélanger avec les pâtes. Terminer avec le fromage râpé."
     },
     {
         "id_recette": 4,
@@ -30,7 +33,8 @@
         "base": "Pâtes",
         "sauce": "Sauce Pesto",
         "proteine": "Poisson",
-        "ingredients_supplementaires": ["Tomates"]
+        "ingredients_supplementaires": ["Tomates"],
+        "preparation": "Faire cuire les pâtes et cuire le poisson à la poêle. Ajouter le pesto et les tomates coupées en morceaux. Mélanger avec les pâtes avant de servir."
     },
     {
         "id_recette": 5,
@@ -38,7 +42,8 @@
         "base": "Pâtes",
         "sauce": "Crème fraîche",
         "proteine": "Oeuf",
-        "ingredients_supplementaires": ["Fromage râpé"]
+        "ingredients_supplementaires": ["Fromage râpé"],
+        "preparation": "Faire cuire les pâtes. Battre les oeufs avec la crème fraîche et le fromage râpé. Ajouter le mélange aux pâtes chaudes et remuer à feu doux jusqu'à obtenir une sauce crémeuse."
     },
     {
         "id_recette": 6,
@@ -46,7 +51,8 @@
         "base": "Riz",
         "sauce": "Sauce tomate",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Poivrons", "Oignons"]
+        "ingredients_supplementaires": ["Poivrons", "Oignons"],
+        "preparation": "Faire cuire le riz. Couper le poulet et les légumes en morceaux puis les faire revenir dans une poêle. Ajouter la sauce tomate et laisser mijoter avant de servir avec le riz."
     },
     {
         "id_recette": 7,
@@ -54,7 +60,8 @@
         "base": "Riz",
         "sauce": "Crème fraîche",
         "proteine": "Poisson",
-        "ingredients_supplementaires": ["Champignons", "Ail"]
+        "ingredients_supplementaires": ["Champignons", "Ail"],
+        "preparation": "Faire cuire le riz. Faire revenir l'ail et les champignons dans une poêle. Ajouter le poisson et la crème fraîche, puis laisser cuire quelques minutes. Servir avec le riz."
     },
     {
         "id_recette": 8,
@@ -62,7 +69,8 @@
         "base": "Riz",
         "sauce": "Sauce tomate",
         "proteine": "Steak",
-        "ingredients_supplementaires": ["Oignons", "Tomates"]
+        "ingredients_supplementaires": ["Oignons", "Tomates"],
+        "preparation": "Faire cuire le riz. Faire revenir le steak coupé en morceaux avec les oignons. Ajouter les tomates et la sauce tomate, puis laisser mijoter quelques minutes. Servir avec le riz."
     },
     {
         "id_recette": 9,
@@ -70,7 +78,8 @@
         "base": "Riz",
         "sauce": "Sauce Pesto",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Ail", "Fromage râpé"]
+        "ingredients_supplementaires": ["Ail", "Fromage râpé"],
+        "preparation": "Faire cuire le riz. Faire revenir le poulet avec l'ail dans une poêle. Ajouter le pesto et mélanger avec le riz. Parsemer de fromage râpé avant de servir."
     },
     {
         "id_recette": 10,
@@ -78,7 +87,8 @@
         "base": "Riz",
         "sauce": "Sauce tomate",
         "proteine": "Oeuf",
-        "ingredients_supplementaires": ["Tomates", "Oignons"]
+        "ingredients_supplementaires": ["Tomates", "Oignons"],
+        "preparation": "Faire cuire le riz. Faire revenir les oignons et les tomates coupées en morceaux. Ajouter les oeufs battus et cuire quelques minutes. Incorporer la sauce tomate et servir avec le riz."
     },
     {
         "id_recette": 11,
@@ -86,7 +96,8 @@
         "base": "Pain",
         "sauce": "Sauce tomate",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Poivrons", "Tomates"]
+        "ingredients_supplementaires": ["Poivrons", "Tomates"],
+        "preparation": "Faire cuire le poulet à la poêle. Couper les poivrons et les tomates en fines tranches. Ouvrir le pain, étaler la sauce tomate puis ajouter le poulet et les légumes."
     },
     {
         "id_recette": 12,
@@ -94,7 +105,8 @@
         "base": "Pain",
         "sauce": "Crème fraîche",
         "proteine": "Steak",
-        "ingredients_supplementaires": ["Fromage râpé", "Oignons"]
+        "ingredients_supplementaires": ["Fromage râpé", "Oignons"],
+        "preparation": "Faire cuire le steak avec les oignons émincés. Tartiner le pain de crème fraîche, ajouter le steak et les oignons puis parsemer de fromage râpé."
     },
     {
         "id_recette": 13,
@@ -102,7 +114,8 @@
         "base": "Pain",
         "sauce": "Sauce Pesto",
         "proteine": "Poisson",
-        "ingredients_supplementaires": ["Tomates"]
+        "ingredients_supplementaires": ["Tomates"],
+        "preparation": "Faire cuire le poisson à la poêle. Tartiner le pain de pesto, ajouter le poisson émietté et les tomates coupées en rondelles. Refermer le sandwich."
     },
     {
         "id_recette": 14,
@@ -110,7 +123,8 @@
         "base": "Pain",
         "sauce": "Crème fraîche",
         "proteine": "Oeuf",
-        "ingredients_supplementaires": ["Fromage râpé", "Ail"]
+        "ingredients_supplementaires": ["Fromage râpé", "Ail"],
+        "preparation": "Faire cuire les oeufs selon votre préférence. Tartiner les tranches de pain avec la crème fraîche et ajouter l'ail. Déposer les oeufs et le fromage râpé, puis faire gratiner quelques minutes au four."
     },
     {
         "id_recette": 15,
@@ -118,7 +132,8 @@
         "base": "Pomme de terre",
         "sauce": "Crème fraîche",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Ail", "Oignons"]
+        "ingredients_supplementaires": ["Ail", "Oignons"],
+        "preparation": "Faire cuire les pommes de terre à l'eau. Faire revenir le poulet avec l'ail et les oignons. Ajouter la crème fraîche et laisser mijoter. Servir avec les pommes de terre."
     },
     {
         "id_recette": 16,
@@ -126,7 +141,8 @@
         "base": "Pomme de terre",
         "sauce": "Sauce tomate",
         "proteine": "Steak",
-        "ingredients_supplementaires": ["Champignons", "Ail"]
+        "ingredients_supplementaires": ["Champignons", "Ail"],
+        "preparation": "Faire cuire les pommes de terre. Faire revenir le steak avec les champignons et l'ail dans une poêle. Ajouter la sauce tomate et laisser mijoter quelques minutes. Servir avec les pommes de terre."
     },
     {
         "id_recette": 17,
@@ -134,7 +150,8 @@
         "base": "Pomme de terre",
         "sauce": "Crème fraîche",
         "proteine": "Oeuf",
-        "ingredients_supplementaires": ["Fromage râpé", "Ail"]
+        "ingredients_supplementaires": ["Fromage râpé", "Ail"],
+        "preparation": "Couper les pommes de terre en rondelles et les précuire. Mélanger les oeufs avec la crème fraîche et l'ail. Disposer les pommes de terre dans un plat, verser la préparation et ajouter le fromage râpé. Enfourner jusqu'à ce que le gratin soit doré."
     },
     {
         "id_recette": 18,
@@ -142,7 +159,8 @@
         "base": "Pomme de terre",
         "sauce": "Sauce tomate",
         "proteine": "Poisson",
-        "ingredients_supplementaires": ["Tomates", "Oignons"]
+        "ingredients_supplementaires": ["Tomates", "Oignons"],
+        "preparation": "Faire cuire les pommes de terre. Faire revenir les oignons et les tomates dans une poêle. Ajouter le poisson et la sauce tomate, puis laisser cuire quelques minutes. Servir avec les pommes de terre."
     },
     {
         "id_recette": 19,
@@ -150,7 +168,8 @@
         "base": "Pâtes",
         "sauce": "Crème fraîche",
         "proteine": "Poulet",
-        "ingredients_supplementaires": ["Champignons", "Ail"]
+        "ingredients_supplementaires": ["Champignons", "Ail"],
+        "preparation": "Faire revenir le poulet avec l'ail dans une poêle. Ajouter les champignons et laisser cuire. Incorporer la crème fraîche et laisser mijoter jusqu'à obtenir une sauce onctueuse. Servir avec des pâtes."
     },
     {
         "id_recette": 20,
@@ -158,6 +177,16 @@
         "base": "Riz",
         "sauce": "Sauce Pesto",
         "proteine": "Steak",
-        "ingredients_supplementaires": ["Poivrons", "Oignons"]
+        "ingredients_supplementaires": ["Poivrons", "Oignons"],
+        "preparation": "Faire cuire le riz. Couper le steak et les légumes en morceaux. Faire revenir le tout dans une poêle, ajouter le pesto et mélanger. Servir chaud avec le riz."
+    },
+    {
+        "id_recette": 21,
+        "nom_recette": "Pâtes à la sauce tomate et au Poulet",
+        "base": "Pâtes",
+        "sauce": "Sauce tomate",
+        "proteine": "Poulet",
+        "ingredients_supplementaires": ["Oignons", "Ail"],
+        "preparation": "Faire cuire les pâtes. Faire revenir le poulet avec les oignons et l'ail. Ajouter la sauce tomate et laisser mijoter quelques minutes. Mélanger avec les pâtes avant de servir."
     }
 ]

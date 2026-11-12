@@ -167,3 +167,19 @@ button {
 button:hover {
     background-color: #F27438;
 }
+
+#liste-recettes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.bot {
+    background-color: #fff3e6;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 5px;
+    color: #333;
+    line-height: 1.5;
+}
