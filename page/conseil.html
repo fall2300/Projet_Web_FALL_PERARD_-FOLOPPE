@@ -6,6 +6,7 @@
         <title>COOK'EASY Conseils</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/conseil.css">
+        <script type="text/javascript" src="../js/conseil.js"></script>
 
     <header>
         <nav>
@@ -21,7 +22,7 @@
             <img class="img_accueil" alt="toque_chef" src="../img/toque.png">
             <h1>COOK’EASY</h1>
         </div>
-    </div
+    </div>
 
 
     <body>
@@ -39,9 +40,9 @@
         </section>
         
         <section>
-        <form>
+        <form method="post" name="formulaire" action="#" class="box" id="formulaireID" onsubmit="return false" >
             <h2>Formulaire</h2>
-            <div>
+            <div id="informations">
                 <h3>Votre situation</h3>
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom_utilisateur">
@@ -59,16 +60,25 @@
                     <option value="autres">Autres</option>
                 </select>
                 <br>
+
+                <input type="button" id="start-quiz" value="Commencer le formulaire" onclick="quizAlert()">
+                <p id="information-message" role="alert"></p>
+                <p id="quiz-countdown" aria-live="polite"></p>
+                <br>
+
             </div>
+
+            <div id="questions" hidden>
+                <h2>Questions</h2>
             <div>
                 <h3>Votre régime alimentaire</h3>
                 <select id="regime" name="regime_utilisateur">
                     <option value>Choississez votre régime</option>
-                    <option value="tous">Je mange de tous</option>
-                    <option value="halal">Je mange Halal</option>
-                    <option value="kasher">Je mange Kasher</option>
-                    <option value="végétarien">Je mange végétarien</option>
-                    <option value="vegan">Je mange vegan</option>
+                    <option value="tous" regime="tous">Je mange de tous</option>
+                    <option value="halal" regime="halal">Je mange Halal</option>
+                    <option value="kasher" regime="kasher">Je mange Kasher</option>
+                    <option value="végétarien" regime="végétarien">Je mange végétarien</option>
+                    <option value="vegan" regime="vegan">Je mange vegan</option>
 
                 </select>
             </div>
@@ -113,10 +123,14 @@
             <div>
                 <input type="button" value="Envoyer">
             </div>
+            </div>
         </form>
         </section>
 
-        <section id="recettes">
+        <div id="recettes" hidden>
+            <h2>Les recettes proposées</h2>
+            <p>Nous vous prosons plusieurs recettes qui conviennent à tous.</p>
+        <section id="recettes" >
             <h2>Les recettes proposées</h2>
             <p>Nous vous prosons plusieurs recettes qui conviennent à tous.</p>
 
@@ -318,6 +332,7 @@
     </div>
 
         </section>
+        </div>
 
 
     </body>
