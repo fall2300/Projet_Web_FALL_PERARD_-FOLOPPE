@@ -6,8 +6,10 @@
         <title>COOK'EASY Conseils</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/conseil.css">
-        <script type="text/javascript" src="../js/conseil.js"></script>
+        <script src="../js/conseil.js" defer></script>
+    </head>
 
+    <body>
     <header>
         <nav>
             <a href="../index.html">Accueil</a>
@@ -24,7 +26,7 @@
 
 
 
-    <body>
+    <main>
         <section>
             <h1>Nos Conseils</h1>
             <div>
@@ -39,7 +41,7 @@
         </section>
         
         <section>
-        <form method="post" name="formulaire" action="#" class="box" id="formulaireID" onsubmit="return false" >
+        <form name="formulaire" class="box" id="formulaireID">
             <h2>Formulaire</h2>
             <div id="informations">
                 <h3>Votre situation</h3>
@@ -47,7 +49,7 @@
                 <input type="text" id="nom" name="nom_utilisateur">
                 <br>
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prénom" name="prenom_utllisateur">
+                <input type="text" id="prenom" name="prenom_utilisateur">
                 <br>
                 <label for="email">Adresse email</label>
                 <input type="email" id="email" name="email_utilisateur">
@@ -60,9 +62,8 @@
                 </select>
                 <br>
 
-                <input type="button" id="start-quiz" value="Commencer le formulaire" onclick="quizAlert()">
-                <p id="information-message" role="alert"></p>
-                <p id="quiz-countdown" aria-live="polite"></p>
+                <input type="button" id="start-quiz" value="Commencer le formulaire">
+                <p id="information-message" role="alert" aria-live="polite"></p>
                 <br>
 
             </div>
@@ -72,12 +73,12 @@
             <div>
                 <h3>Votre régime alimentaire</h3>
                 <select id="regime" name="regime_utilisateur">
-                    <option value>Choississez votre régime</option>
-                    <option value="tous" regime="tous">Je mange de tous</option>
-                    <option value="halal" regime="halal">Je mange Halal</option>
-                    <option value="kasher" regime="kasher">Je mange Kasher</option>
-                    <option value="végétarien" regime="végétarien">Je mange végétarien</option>
-                    <option value="vegan" regime="vegan">Je mange vegan</option>
+                    <option value="">Choississez votre régime</option>
+                    <option value="tous">Je mange de tous</option>
+                    <option value="halal">Je mange Halal</option>
+                    <option value="kasher">Je mange Kasher</option>
+                    <option value="végétarien">Je mange végétarien</option>
+                    <option value="vegan">Je mange vegan</option>
 
                 </select>
             </div>
@@ -105,22 +106,22 @@
                 <h3>Votre recherche</h3>
                 <fieldset>
                     <legend>Que recherchez vous en visitant notre site ?</legend>
-                    <input type="checkbox" id="d" name="recherche" value="d">
+                    <input type="checkbox" id="d" name="recherche" value="sale">
                     <label for="d">Des recettes salées</label>
                     <br>
-                    <input type="checkbox" id="e" name="recherche" value="e">
+                    <input type="checkbox" id="e" name="recherche" value="sucre">
                     <label for="e">Des recettes sucrées</label>
                     <br>
-                    <input type="checkbox" id="f" name="recherche" value="f">
+                    <input type="checkbox" id="f" name="recherche" value="facile">
                     <label for="f">Des recettes faciles</label>
                     <br>
-                    <input type="checkbox" id="g" name="recherche" value="g">
+                    <input type="checkbox" id="g" name="recherche" value="rapide">
                     <label for="g">Des recettes rapides à préparer</label>
                     <br>
                 </fieldset>
             </div>
             <div>
-                <input type="button" value="Envoyer">
+                <button type="submit">Afficher les recettes</button>
             </div>
             </div>
         </form>
@@ -128,12 +129,10 @@
 
         <div id="recettes" hidden>
             <h2>Les recettes proposées</h2>
-            <p>Nous vous prosons plusieurs recettes qui conviennent à tous.</p>
+            <p>Les recettes affichées correspondent à vos choix.</p>
+            <p id="resultat-message" role="status" aria-live="polite"></p>
 
-        <section id="recettes">
-            
-
-            <div>
+        <section id="liste-recettes">
                 <article
                 class="recette"
                 regime="vegan"
@@ -328,13 +327,10 @@
             <p>Temps de préparation : 20 minutes</p>
             </article>
 
-    </div>
-
         </section>
         </div>
+    </main>
 
-
-    </body>
 
     <footer>
         <p>En savoir plus ?</p>
@@ -343,5 +339,6 @@
         <p>Tous droits réservés</p>
     </footer>
 
+    </body>
 
 </html>

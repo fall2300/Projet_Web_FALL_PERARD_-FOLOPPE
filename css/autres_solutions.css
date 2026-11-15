@@ -120,7 +120,7 @@ table caption {
 
 table th,
 table td {
-    border : 1px solid#080500;
+    border : 1px solid #d5ddcf;
     padding : 10px;
     text-align : left;
     vertical-align : top;
@@ -132,10 +132,24 @@ table thead {
 }
 
 table tbody tr:nth-child(odd) {
-    background-color : #e0f0e3;
+    background-color : #f4b451;
 }
 
 table tbody tr:nth-child(even) {
-    background-color : #eeeeee;
+    background-color : #f9dda5;
+}
+
+table tbody a {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 1px 2px #8a4b00;
+}
+
+table tbody a:hover,
+table tbody a:focus-visible {
+    background-color: #fff;
+    color: #e09f3c;
+    outline: 2px solid #e09f3c;
+    text-shadow: none;
 }
 

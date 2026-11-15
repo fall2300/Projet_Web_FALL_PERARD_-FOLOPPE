@@ -118,10 +118,21 @@ h4 {
 }
 
 article{
-    border-radius: 5%;
-    border-color: #f4b451;
+    border: 1px solid #f4b451;
+    border-radius: 12px;
     text-align: center;
-    image-align: center;
+    padding: 12px;
+}
+
+#liste-recettes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+#liste-recettes img {
+    max-width: 100%;
+    height: auto;
 }
 
 form {
