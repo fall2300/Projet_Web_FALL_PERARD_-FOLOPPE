@@ -12,9 +12,9 @@ setInterval(function() {
     inclinee = !inclinee;
 
     if (inclinee) {
-        toque.style.transform = "rotate(15deg)";
+        toque.style.transform = "rotate(10deg)";
     } else {
-        toque.style.transform = "rotate(-15deg)";
+        toque.style.transform = "rotate(-10deg)";
     }
 
 }, 400);
