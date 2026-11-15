@@ -1,51 +1,61 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cook'Easy - À propos</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+// Faire bouger la toque
 
-    <header>
-        <nav>
-            <a href="../index.html">Accueil</a>
-            <a href="./A_propos.html">A propos</a>
-            <a href="./recette.html">Fast recette</a>
-            <a href="./conseil.html">Conseil</a>
-            <a href="./autres_solutions.html">Autres solutions</a>
-        </nav>
-        <div class="banniere">
-            <img class="img_accueil" alt="toque_chef" src="../img/toque.png" id="toque">
-            <h1>COOK’EASY</h1>
-        </div>
-    </header>
+let toque = document.getElementById("toque");
 
-    <main>
-        <h1>À propos de l'équipe</h1>
-        <p>Ce projet de programmation web est réalisé dans le cadre de notre formation à l'EFREI. Voici la présentation des membres du groupe :</p>
+let inclinee = false;
 
-        <section class="boites">
-            <div>
-                <h3>Fall Samba</h3>
-            </div>
-            <div>
-                <h3>Perard Antoine</h3>
-            </div>
-            <div>
-                <h3>Foloppe Lucie</h3>
-            </div>
-        </section>
-        <p id="messageEquipe">Cliquez sur un membre pour découvrir son profil.</p>
-    </main>
+toque.style.transformOrigin = "bottom center";
+toque.style.transition = "transform 0.4s ease-in-out";
 
-    <footer>
-        <p>En savoir plus ?</p>
-        <p><a href="apropos.html">À propos de nous</a></p>
-        <p>&copy; Fall Samba, Perard Antoine, Foloppe Lucie</p>
-        <p>Tous droits réservés</p>
-    </footer>
-<script src="../js/A_propos.js"></script>
-</body>
-</html>
+setInterval(function() {
+
+    inclinee = !inclinee;
+
+    if (inclinee) {
+        toque.style.transform = "rotate(10deg)";
+    } else {
+        toque.style.transform = "rotate(-10deg)";
+    }
+
+}, 400);
+
+// Récupération des cartes de l'équipe
+const cartes = document.querySelectorAll(".boites > div");
+
+// Récupération du message de présentation
+const messageEquipe = document.getElementById("messageEquipe");
+
+// Détecte quand chaque carte est cliquée
+cartes.forEach(function(carte) {
+
+    carte.addEventListener("click", function() {
+
+        cartes.forEach(function(element) {
+            element.classList.remove("carteActive");
+        });
+
+        carte.classList.add("carteActive");
+
+        let nom = carte.querySelector("h3").textContent;
+
+        messageEquipe.textContent = "Vous avez sélectionné : " + nom;
+
+    });
+
+});
+
+const descriptions = [
+    "Fall Samba : Samba a travaillé sur la page Recettes, qui permet aux utilisateurs de découvrir différentes idées de plats et de trouver de l'inspiration pour leurs repas.",
+    "Perard Antoine : Antoine a participé à la conception de Cook'Easy en réalisant la page d'accueil et la page À propos. Il s'est notamment chargé de présenter le projet et les membres de l'équipe.",
+    "Foloppe Lucie : Lucie a réalisé les pages Autres solutions et Conseils, afin de proposer aux utilisateurs des alternatives et des recommandations pour les accompagner dans leur expérience sur Cook'Easy."
+];
+cartes.forEach(function(carte, index) {
+    carte.addEventListener("click", function() {
+        messageEquipe.textContent = descriptions[index];
+    });
+});
+
+
+
+
+
