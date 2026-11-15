@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <!-- Menu du haut -->
     <header>
         <nav>
@@ -16,20 +17,37 @@
             <a href="./page/conseil.html">Conseil</a>
             <a href="./page/autres_solutions.html">Autres solutions</a>
         </nav>
-    </header>
-    <main>
         <div class="banniere">
-            <img class="img_accueil" alt="toque_chef" src="img/toque.png">
+            <img class="img_accueil" alt="toque de chef" src="img/toque.png" id="toque">
             <h1>COOK’EASY</h1>
         </div>
+    </header>
+
+    <main>
+
+        <section class="bienvenue">
+            <h2 id="messageBienvenue">Bienvenue sur Cook'Easy !</h2>
+        </section>
+        <section class="diaporama">
+            <h2>Découvrez nos inspirations culinaires</h2>
+
+            <img id="imagePlat" src="img/Plat_1.jpg" alt="Plat cuisiné">
+            
+
+            <div class="div_diapo">
+                <button id="precedent" class="boutons_diapo">Précédent</button>
+                <button id="suivant" class="boutons_diapo">Suivant</button>
+            </div>
+        </section>
         <section class="boites">
             <div>
-                <img class= "img1" src="img/Etudiant_cuisine.jpg" alt="Étudiant">
+                <img src="img/Etudiant_cuisine.jpg" alt="Étudiant">
                 <h3>Rapide & Malin</h3>
                 <p>Idéal pour les plannings serrés entre les cours.</p>
             </div>
+
             <div>
-                <img class= "img2" src="img/plat_économique.jpg" alt="Plat économique">
+                <img src="img/plat_économique.jpg" alt="Plat économique">
                 <h3>Petit Budget</h3>
                 <p>Des ingrédients simples et pas chers.</p>
             </div>
@@ -39,10 +57,10 @@
     <!-- Pied de page -->
     <footer>
         <p>En savoir plus ?</p>
-        <p><a href="apropos.html">À propos de nous</a></p>
+        <p><a href="./page/A_propos.html">À propos de nous</a></p>
         <p>&copy; Fall Samba, Perard Antoine, Foloppe Lucie</p>
         <p>Tous droits réservés</p>
     </footer>
-
+<script src="js/index.js"></script>
 </body>
 </html>
