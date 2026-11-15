@@ -237,3 +237,11 @@ button:hover {
 .boutons_diapo button:hover {
     background-color: #d85c20;
 }
+
+.carteActive {
+    border: 2px solid #f47735;
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
