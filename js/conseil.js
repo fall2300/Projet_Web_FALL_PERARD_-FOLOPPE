@@ -9,6 +9,7 @@ function showQuiz() {
 
 
 //Les recettes apparaissent une fois que l'utilisateur a choisi son regime alimentaire et rempli le formulaire.
+
 function ShowRecipe(){
     document.getElementById("recettes").hidden = false;
 }
