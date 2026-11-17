@@ -19,7 +19,7 @@
             <a href="./autres_solutions.html">Autres solutions</a>
         </nav>
         <div class="banniere">
-            <img class="img_accueil" alt="toque_chef" src="../img/toque.png">
+            <img id="toque" class="img_accueil" alt="toque_chef" src="../img/toque.png">
             <h1>COOK’EASY</h1>
         </div>
     </header>
@@ -46,15 +46,15 @@
             <div id="informations">
                 <h3>Votre situation</h3>
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom_utilisateur">
+                <input type="text" id="nom" name="nom_utilisateur" required>
                 <br>
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom_utilisateur">
+                <input type="text" id="prenom" name="prenom_utilisateur" required>
                 <br>
                 <label for="email">Adresse email</label>
-                <input type="email" id="email" name="email_utilisateur">
+                <input type="email" id="email" name="email_utilisateur" required>
                 <br>
-                <select id="statut" name="statut_utilisateur">
+                <select id="statut" name="statut_utilisateur" required>
                     <option value>Choississez votre statut</option>
                     <option value="étudiant">Etudiant</option>
                     <option value="situation">Précarité alimentaire</option>

@@ -1,23 +1,10 @@
-// Faire bouger la toque
+const toque = document.getElementById("toque");
 
-let toque = document.getElementById("toque");
+if (toque) {
+    toque.style.transformOrigin = "bottom center";
+    toque.style.transition = "transform 0.4s ease-in-out";
+}
 
-let inclinee = false;
-
-toque.style.transformOrigin = "bottom center";
-toque.style.transition = "transform 0.4s ease-in-out";
-
-setInterval(function() {
-
-    inclinee = !inclinee;
-
-    if (inclinee) {
-        toque.style.transform = "rotate(10deg)";
-    } else {
-        toque.style.transform = "rotate(-10deg)";
-    }
-
-}, 400);
 const formulaire = document.getElementById("formulaireID");
 const questions = document.getElementById("questions");
 const informationMessage = document.getElementById("information-message");
@@ -25,8 +12,16 @@ const recipesSection = document.getElementById("recettes");
 const resultMessage = document.getElementById("resultat-message");
 
 document.getElementById("start-quiz").addEventListener("click", function () {
-    questions.hidden = false;
+    if (!formulaire.reportValidity()) {
+        informationMessage.textContent =
+            "Veuillez compléter vos informations avant de continuer.";
+        return;
+    }
+
     informationMessage.textContent = "";
+    resultMessage.textContent = "";
+    recipesSection.hidden = true;
+    questions.hidden = false;
 });
 
 formulaire.addEventListener("submit", function (event) {
